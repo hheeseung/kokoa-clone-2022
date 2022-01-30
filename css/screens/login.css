@@ -20,7 +20,7 @@
   margin: 0px 30px;
 }
 #login-form input {
-  padding: 15px 0px;
+  padding: 15px 7px;
   font-size: 18px;
   border: none;
   margin-bottom: 25px;
@@ -33,10 +33,10 @@
   color: rgba(0, 0, 0, 0.4);
 }
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--btn-color);
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--btn-color);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;

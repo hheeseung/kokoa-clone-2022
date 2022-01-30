@@ -9,3 +9,11 @@
   color: white;
   font-weight: 600;
 }
+.settings__new {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 15px;
+  position: absolute;
+  top: -4px;
+}

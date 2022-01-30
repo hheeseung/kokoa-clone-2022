@@ -43,3 +43,9 @@
   margin-bottom: 10px;
   display: block;
 }
+.user-component__warning {
+  color: tomato;
+}
+.user-component__column img {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
