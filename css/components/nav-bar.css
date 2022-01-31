@@ -1,6 +1,6 @@
 .nav {
-  background-color: #f9e5c0;
-  padding: 20px 50px;
+  background-color: var(--bg-color);
+  padding: 10px 30px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.2);
   position: fixed;
@@ -15,12 +15,16 @@
   position: relative;
   color: #2e363e;
 }
+.nav__link img {
+  width: 50px;
+  height: 50px;
+}
 @keyframes notificationAnimation {
   0% {
     transform: none;
   }
   50% {
-    transform: translateY(-5px) rotateY(360deg);
+    transform: translateY(-10px) rotateY(360deg);
   }
   100% {
     transform: none;
@@ -28,8 +32,8 @@
 }
 .nav__notification {
   position: absolute;
-  left: 20px;
-  bottom: 15px;
+  left: 30px;
+  bottom: 20px;
   animation: notificationAnimation 2s ease-in-out infinite;
 }
 .nav__new {
