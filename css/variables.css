@@ -1,7 +1,8 @@
 :root {
   --yellow: #fae100;
-  --btn-color: rgb(247, 217, 157);
+  --btn-color: #f7d99d;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
   --bg-color: #f9e5c0;
+  --font-color: #7f7164;
 }
